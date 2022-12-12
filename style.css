@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-image: url(image/picture3d.gif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    padding-top: 75px;
+    
+}
+ul li{
+    display: inline-block;
+    
+}
+ul li a:hover{
+    background-color: aquamarine;
+    color: red;
+}
+ul li a{
+    text-decoration: none;
+    color: azure;
+    padding: 5px 20px;
+    border: 1px solid pink;
+    transition: 0.6s ease;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+
+}
+
+.btn{
+    border: 1px solid greenyellow;
+    padding: 1px 11px;
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: aquamarine;
+    color: aliceblue;
+
+}
+  .logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+}  
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: cyan;
+    color: white;
+}
+

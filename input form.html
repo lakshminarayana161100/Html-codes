@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>input fileds</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <form>
+        <h2>input type="text" defines a single-line text input field. </h2>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+
+        <h2>input type="password" defines a password field. </h2>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd">
+
+        <h2>input type="submit" defines a button. </h2>
+        <input type="submit" value="submit">
+
+        <h2>input type="reset" defines a reset button</h2>
+        <input type="reset" value="reset">
+
+        <h2>input type ="radio" defines a radio button.</h2>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <input type="submit" value="Submit">
+
+        <h2>input type ="checkbox" defines a checkbox.</h2>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+
+        <h2>input type="button" defines a button</h2>
+        <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+
+        <h2>input type ="date" is used for input fields that should contain a date.</h2>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+
+        <h2>input type="datetime-local" specifies a date and time input field</h2>
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+
+        <h2>input type="email" is used for input fields that should contain an e-mail address.</h2>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+
+        <h2>input type="file"defines a file-select field and a "Browse" button for file uploads.</h2>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+
+        <h2>input type="month" allows the user to select a month and year.</h2>
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth">
+
+        <h2>input type="number" defines a numeric input field. </h2>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+
+        <h2>input type="image" defines an image as a submit button.</h2>
+        <input type="image" src="image/flower.png" alt="" width="48" height="48">
+
+        <h2>input type Range</h2>
+        <label for="vol">Volume (between 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+
+        <h2>input type search</h2>
+        <label for="gsearch">Search Google:</label>
+        <input type="search" id="gsearch" name="gsearch">
+        <input type="submit" value="Submit">
+
+        <h2>inputm type url </h2>
+        <label for="homepage">Add your homepage:</label>
+        <input type="url" id="homepage" name="homepage">
+        <input type="submit" value="Submit">
+
+
+    </form>
+</body>
+
+</html>
